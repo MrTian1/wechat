@@ -1,0 +1,6 @@
+<!--pages/welcome/welcome.wxml-->
+<view class='view'>
+   <text class='text'>我的位置</text>
+   <!--给按钮绑定事件 -->
+   <button bindtap="gomap">去定位</button>
+</view>

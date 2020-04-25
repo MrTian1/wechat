@@ -1,0 +1,11 @@
+<!--pages/map/map.wxml-->
+<view>
+    <map class="mymap"
+     longitude="{{x}}"
+     latitude="{{y}}"
+     markers="{{markers}}">
+     </map>
+
+     <button class="mybtn" bindtap="getMyLocation">获得我的位置</button>
+
+</view>
